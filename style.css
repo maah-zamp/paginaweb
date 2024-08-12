@@ -1,0 +1,69 @@
+body {
+  color: rgb(5,5,5);
+  background: rgb(255,255,255);
+  margin: 2px;
+}
+
+header {
+  font-size: 80px;
+  color: #FF5722;
+  border-bottom: solid 2px #FF9800;
+  margin: 20px;
+  padding: 20px;
+  font-family: "Danfo", serif;
+}
+  
+.entrada {
+  font-family: "Bebas Neue", sans-serif;
+  background: #87B32D;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+}
+
+.descricao {
+ font-size: 20px;
+}
+  
+.primeiro {
+ margin-right: 20px;  
+}
+
+img{ 
+ height: 200px;
+}
+
+.clipes{
+  display: flex;
+  overflow-x: auto;
+  gap:10px;
+}
+
+p{
+  text-align: justify;
+}
+
+.outros{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.outros img{
+  opacity: 0.5;
+}
+
+.outros img:hover {
+  opacity: 1.0;
+  border: solid 3px #FF5722;
+  border-radius: 20px;
+}
+
+.logo{
+  position: relative;
+  top: -40px;
+  left: 450px;
+  width: 300px;
+}
